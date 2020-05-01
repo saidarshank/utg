@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<style>
+			body {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #4e82f5;
+	margin: 0px;
+	padding: 20px 10px 0px;
+	background-image: url('https://images.shiksha.com/mediadata/images/1538394595php5dZmtB.jpeg');
+	background-repeat: no-repeat;
+	background-size: 1300px 700px;
+}
+.textfield {
+	font-size: 11px;
+	color: #333333;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding-left: 1px;
+}
+.bottom_addr {
+font-size: 11px;
+color: #000;
+padding: 5px 0 12px 0; 
+text-align:center; 
+font-size:10px;
+}
+.button {
+  background-color: #4e82f5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+}
+h1 {
+	color: #bd6f2f;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 18px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed red;
+	text-align:center;
+}
+h3{
+	color:red;
+	}
+a {
+	color: #2D3954;
+	font-size: 11px;
+}
+a:hover {
+	color: #99CC00;
+}
+.err {
+	color: #FF9900;
+}
+.news {
+	color:red;
+	font-size: 22px;
+}
+th {
+	font-weight: bold;
+	text-align: left;
+}
+#page{
+width:1000px;
+margin:0 auto; 
+margin-top:50px;
+padding-top:0px;
+background: #98b5f5;
+height:auto;
+}
+
+#header{
+text-align:center;
+background:#b4f2fa;
+}
+
+#header{
+	font-size:20px;
+}
+#container{
+border:#4e82f5 solid 1px;
+padding:4px 6px 2px 6px;
+width:970px; 
+margin:0 auto; 
+background:#edfdff;  
+font-size:12px; 
+text-align:justify;
+margin-top:20px;
+}
+#footer{
+width:1000px; 
+margin:0 auto; 
+margin-top:20px;
+background:#b4f2fa;
+}
+
+		</style>
+	</head>
+<body>
+<center><a href ="https://www.sreenidhi.edu.in/"><img src = "http://www.sreenidhi.edu.in/assets/images/sreenidhi-logo.png" height = "90" alt="college logo"></a></center><br>
+		<br>
+		<br>
+		<div id="page">
+			<div id="header">
+				<h2>SNIST TIME-TABLE GENERATOR</h2>
+			</div>
+			<div id="container">
+				<center>
+					<table>
+						<tr>
+							<td>
+								<form action="/action_page.php">
+ <center> <input type="file" name="pic" accept=".xlsx/*"> </center>
+</form>
+<form name = "form2" action="http://localhost:5000/utg" method="POST">
+					<center><button type="submit" name="b9" class="button" >Generate</button></center>
+				</form>
+							</td>
+						</tr>
+					</table>
+				</center>
+			</div>
+			<div id="footer">
+				<div class="bottom_addr"></div>
+			</div>
+		</div>
+
+</body>
+</html>
+
+
+
